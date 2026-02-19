@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This project implements a CNN-based Object Detection Accelerator on the ZCU104 board using ARM Processing System (PS) and FPGA Programmable Logic (PL).
+The system is implemented on the PYNQ-Z2 board (Xilinx Zynq-7000 SoC), which integrates a dual-core ARM Cortex-A9 Processing System (PS) with FPGA Programmable Logic (PL).
 
 The CNN inference is accelerated in FPGA fabric while ARM handles preprocessing and postprocessing.
 
