@@ -12,6 +12,7 @@ The CNN inference is accelerated in FPGA fabric while ARM handles preprocessing 
 ---
 
 ## Final Architecture
+![System Architecture](architecture.png)
 
 Camera / Dataset  
 ↓  
