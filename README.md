@@ -1,5 +1,5 @@
 # Bharat AI-SoC Student Challenge  
-## CNN Accelerator on ZCU104 (ARM + FPGA)
+## CNN Accelerator on PYNQ-Z2 (ARM + FPGA)
 
 ---
 
@@ -37,9 +37,17 @@ ARM Processor (PS)
 
 ## Hardware Used
 
-- ZCU104 (Xilinx Zynq Ultrascale+)
+- PYNQ-Z2 (Xilinx Zynq-7000 SoC)
 - Camera / Image Dataset
 - Serial Console (optional)
+
+### PYNQ-Z2 Board Specifications
+- Xilinx Zynq-7000 (XC7Z020)
+- Dual-core ARM Cortex-A9
+- FPGA Fabric (Programmable Logic)
+- DDR3 Memory
+- HDMI / USB / Ethernet Support
+
 
 ---
 
