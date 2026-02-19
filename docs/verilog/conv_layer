@@ -1,0 +1,22 @@
+module conv_layer(
+    input wire clk,
+    input wire rst,
+    input wire [7:0] pixel_in,
+    input wire valid_in,
+    output reg [15:0] conv_out,
+    output reg valid_out
+);
+
+always @(posedge clk) begin
+    if (rst) begin
+        conv_out <= 0;
+        valid_out <= 0;
+    end else if (valid_in) begin
+        conv_out <= pixel_in * 2; // Simplified convolution logic
+        valid_out <= 1;
+    end else begin
+        valid_out <= 0;
+    end
+end
+
+endmodule
